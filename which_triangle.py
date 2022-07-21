@@ -1,4 +1,4 @@
-#Chose the length of a triangles 3 sides. The code tells you whether it is equilateral, isosceles, scalene or no triangle at all.
+#Chose the length of a triangle's 3 sides. The code tells you whether it is equilateral, isosceles, scalene or no triangle at all.
 a = 6
 b = 6
 c = 6
