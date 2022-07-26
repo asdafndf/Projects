@@ -2,6 +2,8 @@
 
 from math import *
 def am_i_wilson(n):
+    if n == 1:
+        return False
     for x in range(2,int(sqrt(n))+1):
         if n % x == 0:
             return False
