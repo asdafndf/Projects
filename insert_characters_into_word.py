@@ -12,6 +12,10 @@ print(result[:-len(extra)])
 
 #2
 new_string = [x for x in string]
-new_new_string = "***".join(new_string)
+new_new_string = "extra".join(new_string)
 
 print(new_new_string)
+
+#3
+extra = "***"
+print(extra.join(new_string))
