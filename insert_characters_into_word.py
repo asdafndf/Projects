@@ -18,4 +18,4 @@ print(new_new_string)
 
 #3
 extra = "***"
-print(extra.join(new_string))
+print(extra.join(string))
