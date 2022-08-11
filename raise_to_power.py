@@ -9,10 +9,10 @@ def raise_to_power(base, power):
     return result
 
 def raise_to_power2(base, power):
-    resultt = 1
+    result = 1
     for x in range(power):
-        resultt = resultt * base
-    return resultt
+        result = result * base
+    return result
 
 def raise_to_power3(base, power):
     return pow(base, power)
