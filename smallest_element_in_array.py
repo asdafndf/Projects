@@ -5,5 +5,5 @@ def minimum_number(arr):
     for x in range(0, len(arr)):
         if(arr[x] < min):
             min = arr[x]
-    return("Smallest element present in given array: %s" % (min))
+    return(f"Smallest element present in given array: {min}"
 minimum_number(arr)

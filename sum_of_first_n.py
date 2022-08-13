@@ -3,7 +3,7 @@ def summation(n):
     sum = 0
     for x in range(1, n + 1):
         sum = sum + x
-    print("Sum of first %d numbers is: %d" % (n, sum))
+    print(f"Sum of first {n} numbers is: {sum}"
 # Another options 1:
 def summation(n):
     return sum(range(1, n+1))
