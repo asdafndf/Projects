@@ -2,6 +2,6 @@
 
 def even_or_odd(x):
     if x % 2 == 0:
-        print("even number")
+        return("even number")
     elif x % 2 == 1:
-        print("odd number")
+        return("odd number")
