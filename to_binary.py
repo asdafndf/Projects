@@ -10,7 +10,10 @@ def to_binary(n):
     to_string = [str(x) for x in list_]
     return int("".join(to_string[::-1]))
 
-# Probably the best practice:
+# Better practices:
 
 def to_binary(n):
     return int(f"{n:b}")
+
+def to_binary(n):
+    return int(bin(n)[2:])
