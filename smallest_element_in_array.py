@@ -7,7 +7,7 @@ def minimum_number(arr):
             min = arr[x]
     return(f"Smallest element present in given array: {min}"
 
-# Smallest AND biggest and the same time (with 1 iteration)
+# Smallest AND biggest and at the same time (with 1 iteration)
 def maximum_and_minium(numbers):
     min = numbers[0]
     max = numbers[0]
