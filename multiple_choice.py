@@ -30,5 +30,3 @@ def run_test(questions):
         if answer == question.answer:
             score += 1
     return (f"You got {score}/{len(questions)} right")
-
-run_test(questions)
