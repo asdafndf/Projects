@@ -6,7 +6,7 @@ def factor(n):
         return f"{n} is negative, sorry"
     else:
         for x in range(1,n+1):
-            product = product * x
+            product *= x
     return f"{n}! equals {product}"
 
 # You can also import:
