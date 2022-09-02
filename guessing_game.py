@@ -15,3 +15,17 @@ while guess != secret_word:
 
 if guess == secret_word:
     print("You win!")
+
+# Guessing game inspired by Mosh
+
+secret_word = "apple"
+guess_count = 0
+guess_limit = 3
+while guess_count < guess_limit:
+    guess = input("Guess a fruit: ")
+    if guess == secret_word:
+        print("You win!")
+        break
+    guess_count += 1
+else:
+    print("You lose!")
