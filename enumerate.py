@@ -13,7 +13,7 @@ for value in values:
 values = ["a", "b", "c"]
 for index in range(len(values)):
     value = values[index]
-    print(value)
+    print(index, value)
 
 
 values = ["a", "b", "c"]
