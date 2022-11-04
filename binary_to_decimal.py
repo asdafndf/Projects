@@ -7,5 +7,5 @@ def binary_to_decimal(n):
         result = result * 2 + x
     return result
 
-def binary_to_decimal(n):
+def binary_to_decimal2(n):
     return int(str(n), 2)
