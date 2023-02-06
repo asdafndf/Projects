@@ -1,33 +1,16 @@
 # Abc, vowels, consonants
-abc_lower = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+import string
+print(string.ascii_letters) # abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+print(string.ascii_lowercase) # abcdefghijklmnopqrstuvwxyz
+print(string.ascii_uppercase) # ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+letters_list = list(string.ascii_lowercase)
+number_list = range(1, 27, 1)
+
+letter_number = zip(letters_list, number_list)
+
+alphabet_with_position = {char:number for char, number in letter_number}
+
 vowel = "aeiouAEIOU"
 consonant = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ"
 
-rules = {
-    "a" : 1,
-    "b" : 2,
-    "c" : 3,
-    "d" : 4,
-    "e" : 5,
-    "f" : 6,
-    "g" : 7,
-    "h" : 8,
-    "i" : 9,
-    "j" : 10,
-    "k" : 11,
-    "l" : 12,
-    "m" : 13,
-    "n" : 14,
-    "o" : 15,
-    "p" : 16,
-    "q" : 17,
-    "r" : 18,
-    "s" : 19,
-    "t" : 20,
-    "u" : 21,
-    "v" : 22,
-    "w" : 23,
-    "x" : 24,
-    "y" : 25,
-    "z" : 26
-    }
